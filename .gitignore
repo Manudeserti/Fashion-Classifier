@@ -1,0 +1,8 @@
+# Ignorar datos pesados e imágenes
+data/
+outputs/*.h5
+
+# Ignorar archivos autogenerados por Python y Jupyter
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
