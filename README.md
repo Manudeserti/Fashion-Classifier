@@ -27,23 +27,25 @@ The model successfully validates the end-to-end technical pipeline. However, as 
 
 ## 🚀 How to Run Locally
 
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/your-username/Fashion-Classifier.git](https://github.com/your-username/Fashion-Classifier.git)
-   cd Fashion-Classifier
-2. Set up the virtual environment (Python 3.12 recommended):
+**1. Set up the environment and install dependencies:**
+```bash
+# Clone the repository
+git clone [https://github.com/your-username/Fashion-Classifier.git](https://github.com/your-username/Fashion-Classifier.git)
+cd Fashion-Classifier
 
-Bash
+# Create and activate virtual environment (Python 3.12 recommended)
 python -m venv .venv
-source .venv/bin/activate  # On Windows use: .venv\Scripts\activate
-Install dependencies:
+.venv\Scripts\activate  # Use 'source .venv/bin/activate' on Mac/Linux
 
-Bash
+# Install all required packages
 pip install tensorflow pandas opencv-python matplotlib seaborn scikit-learn
-Prepare your data:
-Place your categorized images inside the data/train/ and data/validation/ directories, maintaining subfolders for each class.
+```
 
-Execute:
-Run all cells sequentially in main.ipynb.
+**2. Prepare your data:**
+Place your categorized images inside the `data/train/` and `data/validation/` directories, maintaining subfolders for each class.
 
-Developed by Manuel Deserti - Computer Engineering Student
+**3. Execute:**
+Run all cells sequentially in `main.ipynb`.
+
+---
+*Developed by Manuel Deserti - Computer Engineering Student*
